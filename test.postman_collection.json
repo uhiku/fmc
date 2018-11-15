@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "7e273f21-5375-43fd-b740-69d9ad45f7b4",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://graph.facebook.com/v2.6/me/messenger_codes?access_token=EAAQh5IP4LC8BAFzJ8WFSzgnSf6KPM1WhAoLZCZBAXfimAa3UKB0j2mErFElRsJwP4Gu1FxnoK8t1pNBwkW8TeXvA21tLs3UqNH3r2dLsZCdpFFl9hITVhb0OFfZCWkQtjqtLplNqqXsIP8TZB23eZC9cPjlG8nvV7qBBrQxPZBg5rCcEFkQK4sy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"standard\",\n  \"data\": {\n    \"ref\":\"billboard-ad\"\n  },\n  \"image_size\": 1000\n}"
+				},
+				"url": {
+					"raw": "https://graph.facebook.com/v2.6/me/messenger_codes?access_token=EAAQh5IP4LC8BAFzJ8WFSzgnSf6KPM1WhAoLZCZBAXfimAa3UKB0j2mErFElRsJwP4Gu1FxnoK8t1pNBwkW8TeXvA21tLs3UqNH3r2dLsZCdpFFl9hITVhb0OFfZCWkQtjqtLplNqqXsIP8TZB23eZC9cPjlG8nvV7qBBrQxPZBg5rCcEFkQK4sy",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v2.6",
+						"me",
+						"messenger_codes"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "EAAQh5IP4LC8BAFzJ8WFSzgnSf6KPM1WhAoLZCZBAXfimAa3UKB0j2mErFElRsJwP4Gu1FxnoK8t1pNBwkW8TeXvA21tLs3UqNH3r2dLsZCdpFFl9hITVhb0OFfZCWkQtjqtLplNqqXsIP8TZB23eZC9cPjlG8nvV7qBBrQxPZBg5rCcEFkQK4sy"
+						},
+						{
+							"key": "recepient",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "facebook messenger code"
+			},
+			"response": []
+		}
+	]
+}
